@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
+
 @tailwind utilities;
+
+/* Add these styles to your CSS or use corresponding Tailwind CSS classes */
+.slider {
+    -webkit-appearance: none;
+    width: 170px;
+    height: 4px;
+    background-color: #d6d6c9;
+    /* outline: #007bff; */
+    border-radius: 2px;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ffff;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
