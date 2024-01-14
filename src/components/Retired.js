@@ -197,8 +197,8 @@ function Retired() {
 
                     <div className="goal flex flex-col space-y-4 md:space-y-0 md:flex-row r md:space-x-8">
                         <div className="my-goal">
-                            <h1 className=' text-2xl font-bold md:text-3xl'>$300,000</h1>
-                            <p className=' font-serif text-sm font-semibold text-gray-500 md:mt-1'>my Goal</p>
+                            <h1 className=' text-xl font-bold md:text-2xl'>$300,000</h1>
+                            <p className=' font-serif text-xs font-semibold text-gray-500 md:mt-3'>my Goal</p>
                             <hr className='border-t border-blue-800 my-2' />
 
                         </div>
