@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Retirement Planning Dashboard : Mockup Design 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ScreenShots
 
-## Available Scripts
+![mobile (2)](https://github.com/Onkar-Dhotarkar/Retirement_Planning_Dashboard-Mockup_Design/assets/142321110/dc99c000-67f4-4a08-9230-105e65248698)
 
-In the project directory, you can run:
+![mobile (5)](https://github.com/Onkar-Dhotarkar/Retirement_Planning_Dashboard-Mockup_Design/assets/142321110/597c78b9-4a84-45b3-be03-62a953930c2b)
 
-### `npm start`
+![mobile (3)](https://github.com/Onkar-Dhotarkar/Retirement_Planning_Dashboard-Mockup_Design/assets/142321110/ac261bb2-9e37-40b6-ae4f-9cb6395d007d)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Overview:
+This project is a comprehensive Retirement Planning Dashboard, designed to assist users in managing their retirement funds effectively. The dashboard provides a user-friendly interface for tracking various financial aspects, contributions, and achieving retirement goals.
 
-### `npm test`
+## Key Features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Responsive Design:
+- The dashboard is responsive, ensuring a seamless user experience across different devices, including desktops and mobile devices.
+  
+### Navigation:
+- The navigation bar allows easy access to different sections of the dashboard, providing a smooth and intuitive user journey.
+  
+### Profile Section:
+- The profile section displays the user's information, including a profile picture, name, and a welcome message. It also shows the current account balance, year-to-date contributions, and total interest earned.
+  
+### Today's Overview:
+- Provides a summary of the user's financial status for the current day, including the account balance and additional details.
+  
+### Recent Transactions:
+- Displays a list of recent financial transactions, providing users with a quick overview of their financial activities
+  
+### Retirement Income Section:
+- Highlights the user's retirement income, showing the goal amount, goal achievement percentage, and estimated monthly income.
+  
+### Contribution Overtime:
+- Visualizes the contribution over time, showcasing employer and employee contributions, along with total interest earned.
+  
+### Retirement Strategy Section:
+- Allows users to customize their retirement strategy by adjusting employee and employer contribution percentages. The section also displays the current contribution rates, interest rate, and provides an option to update the strategy.
+  
+### Comparison with Peers:
+- Provides a comparison with peers based on age, salary, and gender. Users can see their progress compared to the average and top performers.
+  
+### Learning Resources:
+- Includes a "View Help Docs" button, offering users access to helpful documentation about retirement planning.
+  
+### Housing Advance Information:
+- Informs users about limited-time reduced interest rates for housing advances, encouraging them to explore more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js: Used for building the user interface components and managing the application state.
+- Chart.js and Recharts: Employed for creating interactive and visually appealing charts to represent financial data.
+- Tailwind CSS: Utilized for styling and ensuring a clean and modern design.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## How to Run:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Clone the repository.
+- Install dependencies using npm install.
+- Start the development server using npm start.
