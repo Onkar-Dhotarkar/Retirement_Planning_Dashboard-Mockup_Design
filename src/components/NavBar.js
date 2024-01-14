@@ -63,7 +63,7 @@ function NavBar() {
             <img src={notifi} alt="" className='mt-1 cursor-pointer' />
             <div className='flex justify-end items-end rounded-full top-0 bg-blue-400 h-2 w-2'></div>
 
-            
+
           </div>
           <IoExitOutline className=' text-gray-600 cursor-pointer' size={20} />
         </div>

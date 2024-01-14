@@ -1,23 +1,19 @@
 import React, { useState } from 'react';
-import { MdKeyboardArrowRight } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import { FaCaretDown } from "react-icons/fa";
-
 import { CircularProgressbar } from 'react-circular-progressbar';
 
 function Strategy_2() {
-    const [value, setValue] = useState(12); // Initial value, you can set it to any value you want
-    const [val, setVal] = useState(65); // Initial value, you can set it to any value you want
-    // Initial value, you can set it to any value you want
-
+    const [value, setValue] = useState(12);
+    const [val, setVal] = useState(65);
 
     const handleChange = (e) => {
         setValue(e.target.value);
     };
+
     const handleChang = (e) => {
         setVal(e.target.value);
     };
-
 
     const trackStyle = {
         background: `linear-gradient(to right, #4c81af 0%, #4c81af ${value * 5}%, #d1d5db ${value * 5}%, #d1d5db 100%)`,
@@ -26,13 +22,14 @@ function Strategy_2() {
     const trackStyl = {
         background: `linear-gradient(to right, #4c81af 0%, #4c81af ${val}%, #d1d5db ${val}%, #d1d5db 100%)`,
     };
+
+
     return (
         <>
             <div className='md:hidden flex mt-1 flex-col'>
                 <div className="relative mb-6">
                     <RxCross2 className='absolute top-0 right-0 m-4' size={20} />
                 </div>
-
 
                 <div className="title_age_circle flex flex-col m-3 ml-5">
                     <div className="title ">
@@ -111,13 +108,9 @@ function Strategy_2() {
                                     onChange={handleChange}
                                     className="slider appearance-none  h-1 bg-blue-500 outline-none"
                                     style={trackStyle}
-
-
                                 />
 
                                 <span className="text-base ml-8 h-2 w-2 p-2 rounded-md bg-white">{value}%</span>
-
-
                             </div>
 
                             <div className="2 ">
@@ -132,15 +125,10 @@ function Strategy_2() {
                                     onChange={handleChang}
                                     className="slider appearance-none w-64 h-1 bg-blue-500 outline-none"
                                     style={trackStyl}
-
-
                                 />
 
                                 <span className="text-base ml-8 h-2 w-2 p-2 rounded-md bg-white">{val}</span>
-
-
                             </div>
-
                         </div>
 
                         <div className="contri-rate flex flex-col space-y-5 mt-8">
@@ -154,28 +142,16 @@ function Strategy_2() {
                                 <span className=" font-bold ml-32 text-sm">5%</span>
                             </div>
                         </div>
-                   </div>
-                   
+                    </div>
                 </div>
-                
+
                 <div className="relative">
-                <div className="btn absolute  h-12 w-full bg-blue-600 items-center justify-center flex text-center cursor-pointer">
-                    <button className='text-white font-semibold text-sm '>Update</button>
+                    <div className="btn absolute  h-12 w-full bg-blue-600 items-center justify-center flex text-center cursor-pointer">
+                        <button className='text-white font-semibold text-sm '>Update</button>
+                    </div>
                 </div>
-                </div>
-
             </div>
-
-
-
-
-
-
-
-
-
         </>
     )
 }
-
 export default Strategy_2

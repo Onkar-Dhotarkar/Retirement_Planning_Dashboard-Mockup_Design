@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 function Strategy() {
-    const [value, setValue] = useState(12); // Initial value, you can set it to any value you want
-    const [val, setVal] = useState(65); // Initial value, you can set it to any value you want
-    // Initial value, you can set it to any value you want
-
+    const [value, setValue] = useState(12);
+    const [val, setVal] = useState(65);
 
     const handleChange = (e) => {
         setValue(e.target.value);
@@ -22,11 +20,6 @@ function Strategy() {
     const trackStyl = {
         background: `linear-gradient(to right, #4c81af 0%, #4c81af ${val}%, #d1d5db ${val}%, #d1d5db 100%)`,
     };
-
-
-
-
-
 
     return (
         <>
@@ -100,7 +93,7 @@ function Strategy() {
                     </div>
                     <div className='flex flex-row items-center justify-center text-blue-600 font-bold'>
                         <span className=' text-xs cursor-pointer hover:underline-offset-4  hover:underline'>View Help Docs</span>
-                        <MdKeyboardArrowRight className='cursor-pointer'/></div>
+                        <MdKeyboardArrowRight className='cursor-pointer' /></div>
                 </div>
 
 
@@ -122,20 +115,12 @@ function Strategy() {
                         <p className='text-xs font-bold text-gray-400'>Limited Time Reduced interest</p>
                         <div className="flex flex-row items-center text-xs font-bold text-blue-600 ">
                             <p className='cursor-pointer hover:underline-offset-4  hover:underline'>Learn More</p>
-                            <MdKeyboardArrowRight  className='cursor-pointer'/>
+                            <MdKeyboardArrowRight className='cursor-pointer' />
                         </div>
                     </div>
-
-
                 </div>
-
             </div>
-
-
-
-
         </>
     )
 }
-
 export default Strategy

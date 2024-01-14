@@ -5,17 +5,10 @@ import Retired from './components/Retired';
 import Strategy from './components/Strategy';
 import Strategy_2 from './components/Strategy_2';
 
-
-
-
-
-
 function App() {
 
-
   return (
-
-    <body >
+    < >
       <div className="main md:flex  ">
         
         <NavBar />
@@ -23,12 +16,9 @@ function App() {
         <Retired />
         <Strategy_2 />                  {/* // created seperate deu to limited-time  */}
         <Strategy />                    {/* //dekstop view  */}
-
-
-
-        
+ 
       </div>
-    </body>
+    </>
   );
 }
 

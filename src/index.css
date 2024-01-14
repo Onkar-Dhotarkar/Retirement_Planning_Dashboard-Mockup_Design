@@ -3,7 +3,6 @@
 
 @tailwind utilities;
 
-/* Add these styles to your CSS or use corresponding Tailwind CSS classes */
 .slider {
     -webkit-appearance: none;
     width: 170px;

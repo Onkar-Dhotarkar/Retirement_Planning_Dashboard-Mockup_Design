@@ -1,20 +1,11 @@
 import React from 'react';
 import notifi from './assets/noti.png';
 import { FaCaretDown } from "react-icons/fa";
-import { RxCross2 } from "react-icons/rx";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, } from 'recharts';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
-
-
-
-
-
-
-
-
-
+//  added data manualy only for designing purpose
 const data = [
     {
         name: '20',
@@ -67,7 +58,7 @@ const data = [
     },
 
 ];
-
+// the data seperated for dekstop and mobile [designing purpose]
 const dataa = [
     {
         name: '20',
@@ -163,7 +154,6 @@ const dataa = [
 
 ];
 
-
 function Retired() {
 
     const sortedData = data.slice().sort((a, b) => parseInt(a.name) - parseInt(b.name));
@@ -174,16 +164,15 @@ function Retired() {
         <>
             {/* <NavBar/> */}
             <div className="main ">
-            
-            <div className=" relative flex justify-end mr-6 mt-7 md:hidden">
-                <div className=" absolute flex justify-end ">
-               
-                    <div className=' absolute h-2 w-2 bg-blue-400 rounded-full '></div>
-                 <img src={notifi} alt="" className='mt-1 cursor-pointer p-1' />
-                </div>
-            </div>
 
-               
+                <div className=" relative flex justify-end mr-6 mt-7 md:hidden">
+                    <div className=" absolute flex justify-end ">
+                        <div className=' absolute h-2 w-2 bg-blue-400 rounded-full '></div>
+                        <img src={notifi} alt="" className='mt-1 cursor-pointer p-1' />
+                    </div>
+                </div>
+
+
 
                 <div className="afternotify flex flex-col space-y-8 mt-2 md:mt-0 px-5 md:ml-20">
 
@@ -304,9 +293,9 @@ function Retired() {
                             <Bar dataKey="customData" stackId="a" fill="#3b82f6" />
                         </BarChart>
                     </div>
-{/* hidden */}
+                    {/* hidden */}
                     <div className="howtocompare md:flex hidden ">
-                   
+
                         <div className="containt flex flex-col">
                             <div className="title">
                                 <h1 className=' font-semibold font-serif text-xl'>How do I compare my peers?</h1>
@@ -335,7 +324,7 @@ function Retired() {
                                             <CircularProgressbar value={78} text={`${78}%`} strokeWidth={12} styles={{
                                                 trail: { stroke: '#f3f3f3' }, // Background color
                                                 path: { stroke: '#00FFAD' },  // Progress color
-                                                text: { fill: 'black', fontSize: '25px',fontWeight:"bold" } // Text color
+                                                text: { fill: 'black', fontSize: '25px', fontWeight: "bold" } // Text color
                                             }} />
                                         </div>
                                         <h1 className=' font-semibold font-serif text-base'>Average</h1>
@@ -346,8 +335,8 @@ function Retired() {
                                             <CircularProgressbar value={95} text={`${95}%`} strokeWidth={12} styles={{
                                                 trail: { stroke: '#f3f3f3' }, // Background color
                                                 path: { stroke: '#00FFAD' },  // Progress color
-                                                text: { fill: 'black', fontSize: '25px',fontWeight:"bold" } // Text color
-                                            }}/>
+                                                text: { fill: 'black', fontSize: '25px', fontWeight: "bold" } // Text color
+                                            }} />
                                         </div>
                                         <h1 className=' font-semibold font-serif text-base'>Top</h1>
                                     </div>
@@ -357,7 +346,7 @@ function Retired() {
                                             <CircularProgressbar value={59} text={`${59}%`} strokeWidth={12} styles={{
                                                 trail: { stroke: '#f3f3f3' }, // Background color
                                                 path: { stroke: '#00FFAD' },  // Progress color
-                                                text: { fill: 'black', fontSize: '25px',fontWeight:"bold" } // Text color
+                                                text: { fill: 'black', fontSize: '25px', fontWeight: "bold" } // Text color
                                             }} />
                                         </div>
                                         <h1 className=' font-semibold font-serif text-base'>Me</h1>
