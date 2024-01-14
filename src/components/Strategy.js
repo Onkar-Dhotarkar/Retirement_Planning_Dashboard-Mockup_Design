@@ -23,7 +23,7 @@ function Strategy() {
 
     return (
         <>
-            <div className="main hidden md:flex mt-12 ml-24 flex-col">
+            <div className="main hidden md:flex mt-12 ml-20 flex-col">
 
                 <div className="strategy h-[62vh] w-[40vh] bg-gray-100 flex flex-col p-4 rounded-xl">
 
