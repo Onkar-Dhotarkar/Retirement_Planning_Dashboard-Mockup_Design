@@ -60,3 +60,6 @@ This project is a comprehensive Retirement Planning Dashboard, designed to assis
 - Clone the repository.
 - Install dependencies using npm install.
 - Start the development server using npm start.
+
+## Support and Love
+`For support, give a ⭐️.`
